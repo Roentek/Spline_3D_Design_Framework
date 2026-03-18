@@ -31,6 +31,16 @@
       "env": {
         "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
       }
+    }, 
+    "spline-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "spline-mcp-server"
+      ],
+      "env": {
+        "SPLINE_API_KEY": "${SPLINE_API_KEY}"
+      }
     }
   }
 }

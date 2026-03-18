@@ -27,6 +27,7 @@
   "enabledMcpjsonServers": [
     "tavily-mcp",
     "supabase-mcp",
-    "openrouter-mcp"
+    "openrouter-mcp", 
+    "spline-mcp"
   ]
 }

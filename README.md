@@ -4,15 +4,11 @@
 
 A plug-and-play framework for integrating interactive 3D scenes built in [Spline](https://spline.design) into websites and applications using the Spline API.
 
----
-
 ## What is Spline?
 
 [Spline](https://spline.design) is a 3D design tool that lets you create interactive, real-time 3D scenes directly in the browser. It supports animations, physics, events, and variables — all exportable to the web with minimal setup.
 
 The **Spline API** is a set of tools and SDKs that allow developers to embed those scenes into their own apps and control them programmatically — triggering animations, manipulating objects, reading and writing variables, and responding to 3D scene events using JavaScript or TypeScript.
-
----
 
 ## About This Project
 
@@ -24,8 +20,6 @@ This repository is a **starter template and framework** for working with the Spl
 
 Use this as a starting point when building apps that combine Spline's interactive 3D capabilities with backend services or AI workflows.
 
----
-
 ## Key Features
 
 - **Spline API integration** — Load and control 3D scenes, trigger events, and read/write scene variables
@@ -33,8 +27,6 @@ Use this as a starting point when building apps that combine Spline's interactiv
 - **OpenRouter AI** — Flexible model routing for AI-powered interactions within 3D experiences
 - **Supabase backend** — Database and edge functions ready for 3D app data persistence
 - **Environment-based configuration** — All API keys managed via `.env` (never committed)
-
----
 
 ## Getting Started
 
@@ -68,8 +60,6 @@ cp .env.example .env
 2. Go to **Account Settings → API Keys**
 3. Generate a new key and add it to your `.env` file
 
----
-
 ## Spline API Quick Reference
 
 The Spline runtime lets you interact with your 3D scene after it loads:
@@ -92,8 +82,6 @@ const value = app.getVariable('score');
 app.setVariable('score', 42);
 ```
 
----
-
 ## MCP Servers Configured
 
 This project includes MCP (Model Context Protocol) server integrations for use with Claude Code:
@@ -104,8 +92,6 @@ This project includes MCP (Model Context Protocol) server integrations for use w
 | Tavily | Web search and research |
 | Supabase | Database operations and edge functions |
 | OpenRouter | Multi-model AI inference |
-
----
 
 ## License
 

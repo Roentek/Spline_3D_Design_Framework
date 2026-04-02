@@ -16,15 +16,13 @@
       "Bash(npm run:*)",
       "Bash(git remote set-url:*)",
       "mcp__claude_ai_Tavily__tavily_search",
-      "mcp__claude_ai_Supabase__supabase_query",
-      "mcp__claude_ai_OpenRouter__openrouter_query",
-      "mcp__claude_ai_Spline__spline_query"],
+      "mcp__claude_ai_OpenRouter__openrouter_query"
+    ],
     "deny": []
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "tavily-mcp",
-    "supabase-mcp",
     "openrouter-mcp", 
     "spline-mcp"
   ]

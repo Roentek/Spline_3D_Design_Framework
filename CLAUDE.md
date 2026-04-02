@@ -14,7 +14,6 @@ Configured in `.mcp.json`:
 | -------- | --------- |
 | **spline-mcp** | Create/manipulate 3D objects, scenes, materials, lighting, events, and generate runtime code |
 | **tavily-mcp** | Web search and research |
-| **supabase-mcp** | Database operations and edge functions |
 | **openrouter-mcp** | Multi-model AI inference |
 
 ## Environment Variables
